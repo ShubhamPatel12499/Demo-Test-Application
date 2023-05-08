@@ -37,4 +37,24 @@ body>table>tbody>tr>td>button{
     background-color: black;
     padding:10px;
     border-radius: 6px;
+    cursor: pointer;
 } 
+#pagination{
+    margin:40px auto auto 750px;
+    font-size: 20px;
+
+}
+#pagination> button{
+    padding:10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#pagination> button:nth-child(1){
+    color: white;
+    background-color: black;
+}
+#pagination> button:nth-child(3){
+    color: white;
+    background-color: black;
+}
+
