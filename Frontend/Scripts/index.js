@@ -45,29 +45,28 @@ function MyFunction(event){
   let element=document.createElement("tr");
 
   let td1=document.createElement("td");
-  td1.innerText= Name;
+  td1.innerText= Full_name;
 
   let td2=document.createElement("td");
-  td2.innerText= EmployeeID;
+  td2.innerText= Email;
 
   let td3=document.createElement("td");
-  td3.innerText= department;
+  td3.innerText= Country;
 
   let td4=document.createElement("td");
-  td4.innerText= Experience;
+  td4.innerText= State;
 
   let td5=document.createElement("td");
-  td5.innerText= Email;
+  td5.innerText= City;
 
   let td6=document.createElement("td");
-  td6.innerText= Mobile;
+  td6.innerText= Languages;
 
   let td7=document.createElement("td");
-  td7.innerText= Mobile;
+  td7.innerText= Date;
 
   let td8=document.createElement("td");
   td8.innerText="DELETE";
-//   td8.style.backgroundColor="red";
   td8.style.cursor ="pointer";
   td8.addEventListener("click",DeleteRow);
 
