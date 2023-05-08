@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#navbar{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    gap:20px;
+    font-size:larger;
+    font-weight: bolder;
+    color:black;
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+}
+
+body>form{
+    display:grid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:25%;
+    margin:40px auto auto auto;
+    border-radius: 5px;
+    padding:20px;
+}
+
+body>form>label{
+    display: grid;
+    width:80%;
+    margin: 1% auto auto auto;
+    
+
+}
+
+body>form>input{
+    display: grid;
+    width:80%;
+    margin:auto;
+    height:20px
+}
+
+body>form>select{
+    display: grid;
+    width:80%;
+    margin:auto;
+}
+
+body>form>input:last-child{
+    display: grid;
+    width:80%;
+    margin:auto;
+    background-color: rgb(15, 137, 159);
+    height:35px;
+    border-radius:2%;
+    color: white;
+    border:none;
+    border-radius: 5px;             
+}
