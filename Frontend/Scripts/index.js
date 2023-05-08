@@ -32,14 +32,14 @@ let formTag=document.querySelector("form");
 
 function MyFunction(event){
     event.preventDefault();
-    let Full_name = formTag.name.value;
-    let Email =formTag.employeeID.value;
-    let Country = formTag.department.value;
-    let State= formTag.exp.value;
-    let City= formTag.email.value;
-    let Languages= formTag.mbl.value;
-    let Date= formTag.mbl.value;
-    let Actions= formTag.mbl.value;
+    let Full_name = formTag.Full_name.value;
+    let Email =formTag.Email.value;
+    let Country = formTag.Country.value;
+    let State= formTag.State.value;
+    let City= formTag.City.value;
+    let Languages= formTag.Languages.value;
+    let Date= formTag.Date.value;
+    let Actions= formTag.Actions.value;
     
 
   let element=document.createElement("tr");
